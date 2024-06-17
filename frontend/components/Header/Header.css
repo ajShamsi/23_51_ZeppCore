@@ -1,0 +1,33 @@
+.headerContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.headerMenu {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.headerMenu li {
+  margin-right: 20px;
+  /* Add hover effect */
+  transition: transform 0.3s ease;
+}
+
+/* Add hover effect */
+.headerMenu li:hover {
+  transform: translateY(-5px);
+}
+
+.headerIcons {
+  display: flex;
+  align-items: center;
+}
+
+/* Add spacing between icon and title */
+.headerMenu li .fa-icon {
+  margin-right: 5px;
+}
